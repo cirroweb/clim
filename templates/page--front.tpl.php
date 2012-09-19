@@ -7,9 +7,9 @@
 			      <img src="<?php print $logo; ?>" alt="<?php print t('Home'); ?>"/>
 			    </a>
 		    </div>
-		    <div id="nav-region">
-					<?php print render($page['header']); ?>
-				</div>
+		    <nav id="main-menu">
+					<?php include 'menu.inc'; ?>
+				</nav>
     	</div>
   	</div>
 	</div>
@@ -18,7 +18,6 @@
 
 <div class="container" class="<?php print $classes; ?>"<?php print $attributes; ?>>
     <?php print $messages; ?>
-    <?php print render($page['content']) ?>
 </div>
 
 <footer id="footer">

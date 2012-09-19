@@ -4,9 +4,9 @@
 	    <a href="<?php print $front_page; ?>" title="<?php print t('Home'); ?>" rel="home" id="logo">
 	      <img src="<?php print $logo; ?>" alt="<?php print t('Home'); ?>"/>
 	    </a>
-	    <div id="nav-region">
-	      <?php print render($page['header']); ?>
-	    </div>
+	    <nav id="main-menu">
+	      <?php include 'menu.inc'; ?>
+	    </nav>
   	</div>
 	</div>
 </div>

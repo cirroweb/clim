@@ -1,13 +1,12 @@
 //  CIRRO CUSTOM SASS
 // ----------------------------------------------------------------------------
 
-// Dont show toolbar when logged in
-// body.toolbar
-// 	padding-top: 0 !important
-
 
 //  General Classes
 // ----------------------------------------------------------------------------
+
+.fixed
+	position: fixed
 
 .center
 	margin: 0 auto
@@ -59,6 +58,25 @@
 		width: 10px
 		background: url(../images/loading_small.gif) no-repeat center center
 
-.fixed
-	position: fixed
 
+//  Drupal Overrides
+// ----------------------------------------------------------------------------
+
+// Dont show toolbar when logged in
+// body.toolbar
+// 	padding-top: 0 !important
+
+
+.page-user
+	.form-item .description,
+	label
+		display: none
+	.container
+		margin-top: 20%
+	#forgot
+		font-size: 12px
+		font-weight: 300
+		
+		
+//  Purrrdy Stuff
+// ----------------------------------------------------------------------------
