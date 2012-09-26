@@ -2727,7 +2727,8 @@ button.btn.btn-mini, input[type="submit"].btn.btn-mini
 			-moz-border-radius: 0 0 6px 6px
 			border-radius: 0 0 6px 6px
 
-.alert
+.alert,
+div.messages
 	padding: 8px 35px 8px 14px
 	margin-bottom: 20px
 	color: $orange
@@ -2744,7 +2745,22 @@ button.btn.btn-mini, input[type="submit"].btn.btn-mini
 		top: -2px
 		right: -21px
 		line-height: 20px
-
+	&.error
+		color: $red
+		background-color: #f2dede
+		border-color: #eed3d7
+		background-image: none
+	&.status
+		color: $green
+		background-color: #dff0d8
+		border-color: #d6e9c6
+		background-image: none
+	&.warning
+		color: $lightBlue
+		background-color: #d9edf7
+		border-color: #bce8f1
+		background-image: none
+		
 .alert-success
 	color: $green
 	background-color: #dff0d8

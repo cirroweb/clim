@@ -1099,9 +1099,12 @@ button.btn.btn-mini, input[type="submit"].btn.btn-mini { *padding-top: 1px; *pad
 .btn-group-vertical .btn-large:first-child { -webkit-border-radius: 6px 6px 0 0; -moz-border-radius: 6px 6px 0 0; border-radius: 6px 6px 0 0; }
 .btn-group-vertical .btn-large:last-child { -webkit-border-radius: 0 0 6px 6px; -moz-border-radius: 0 0 6px 6px; border-radius: 0 0 6px 6px; }
 
-.alert { padding: 8px 35px 8px 14px; margin-bottom: 20px; color: #ed5b25; text-shadow: 0 1px 0 rgba(255, 255, 255, 0.5); background-color: #fcf8e3; border: 1px solid #fbeed5; -webkit-border-radius: 4px; -moz-border-radius: 4px; border-radius: 4px; }
-.alert h4 { margin: 0; }
-.alert .close { position: relative; top: -2px; right: -21px; line-height: 20px; }
+.alert, div.messages { padding: 8px 35px 8px 14px; margin-bottom: 20px; color: #ed5b25; text-shadow: 0 1px 0 rgba(255, 255, 255, 0.5); background-color: #fcf8e3; border: 1px solid #fbeed5; -webkit-border-radius: 4px; -moz-border-radius: 4px; border-radius: 4px; }
+.alert h4, div.messages h4 { margin: 0; }
+.alert .close, div.messages .close { position: relative; top: -2px; right: -21px; line-height: 20px; }
+.alert.error, div.messages.error { color: #ee2b2e; background-color: #f2dede; border-color: #eed3d7; background-image: none; }
+.alert.status, div.messages.status { color: #1fb173; background-color: #dff0d8; border-color: #d6e9c6; background-image: none; }
+.alert.warning, div.messages.warning { color: #49afcd; background-color: #d9edf7; border-color: #bce8f1; background-image: none; }
 
 .alert-success { color: #1fb173; background-color: #dff0d8; border-color: #d6e9c6; }
 
