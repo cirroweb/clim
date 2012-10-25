@@ -10,9 +10,7 @@ regions[content] = Content
 regions[footer] = Footer
 
 features[] = logo
-features[] = search
 features[] = favicon
-features[] = main_menu
 
 stylesheets[all][] = css/main.css
 stylesheets[all][] = css/responsive.css
