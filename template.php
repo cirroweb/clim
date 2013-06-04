@@ -48,8 +48,8 @@ function clim_css_alter(&$css) {
  */
 function clim_js_alter(&$javascript) {
 
-  $jquery_new = '//ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js';
-  $jquery_version = '1.8.3';
+  $jquery_new = '//ajax.googleapis.com/ajax/libs/jquery/1.10.0/jquery.min.js';
+  $jquery_version = '1.10.0';
   $jquery_newest = '//code.jquery.com/jquery-latest.min.js';
 
   // Swap out jQuery to use an updated version and move to footer.
