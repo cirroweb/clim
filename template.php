@@ -50,7 +50,7 @@ function clim_js_alter(&$javascript) {
 
   $jquery_new = 'http://ajax.googleapis.com/ajax/libs/jquery/1.10.0/jquery.min.js';
   $jquery_version = '1.10.0';
-  $jquery_newest = '//code.jquery.com/jquery-latest.min.js';
+  $jquery_newest = 'http://code.jquery.com/jquery-latest.min.js';
 
   // Swap out jQuery to use an updated version and move to footer.
   $javascript['misc/jquery.js']['data']   = $jquery_new;
