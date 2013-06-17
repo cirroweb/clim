@@ -27,12 +27,9 @@
 
 
 
-Welcome to the README for Cirro's Drupal theme called clim. 
+Welcome to the README for Cirro's Drupal theme called clim 
+( cirro less is more )
 
-Clim is required to tell you that he is sexy and smooth but still smells and 
-hasn't showered in a while.
-
-................................................................................
 
 cirrously.com
 
@@ -41,15 +38,6 @@ cirrously.com
 ................................................................................
 ................................................................................
 
-
-
-When you use clim in your Drupal instill be sure to delete the 
-.git and .gitignore file from the root
-
-
-................................................................................
-................................................................................
-................................................................................
 
 
 Thanks for using and please add any feature requests or issues to github
