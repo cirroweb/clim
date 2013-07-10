@@ -13,6 +13,5 @@ features[] = logo
 features[] = favicon
 
 stylesheets[all][] = css/main.css
-stylesheets[all][] = css/responsive.css
 
 settings[cirro_like] = 1

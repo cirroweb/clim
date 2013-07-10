@@ -3,9 +3,11 @@
 //  ( B | A | S | E )   //
 //   \_/ \_/ \_/ \_/    //
 
-
+// ..............................................
+//
 //  Global Resets and Standards
-// ----------------------------------------------------------------------------
+//
+// ..............................................
 
 *, *:before, *:after
 	-webkit-box-sizing: border-box
@@ -35,34 +37,40 @@ html
 body
 	margin: 0
 	font-family: $baseFontFamily
-	font-size: $baseFontSize
-	font-weight: $baseFontWeight
-	line-height: $baseLineHeight
-	color: $textColor
+	font-size: 15px
+	font-weight: 400
+	line-height: 1.4
+	color: $black
 	background-color: $bodyBackground
-	//padding-top: $headerHeight
 
 // Drupal Override
 .element-invisible
 	display: none
 
-// Links
-// ----------------------------------------------------------------------------
+// ..............................................
+//
+//  Links
+//
+// ..............................................
 a
-	color: $linkColor
+	color: $black
 	text-decoration: none
 	&:hover
-		color: $linkColorHover
+		color: $black
 		text-decoration: underline
 	&:focus
 		outline: none
 	&:visited
-		color: $linkColor
+		color: $black
 	img
 		border: none
 
-// Misc
-// ----------------------------------------------------------------------------
+
+// ..............................................
+//
+//  Structure
+//
+// ..............................................
 
 ::selection
 	background: $yellow
@@ -154,8 +162,11 @@ textarea
 		content: ""
 		clear: both
 
-// Type
-// ----------------------------------------------------------------------------
+// ..............................................
+//
+//  Typeography
+//
+// ..............................................
 
 p
 	margin: 0 0 10px
@@ -188,7 +199,7 @@ cite
 	color: $red
 
 .text-info
-	color: $lightBlue
+	color: $gray
 
 .text-success
 	color: $green
@@ -196,7 +207,7 @@ cite
 h1, h2, h3, h4, h5, h6
 	margin: 0 0 10px 0
 	font-family: $headingsFontFamily
-	font-weight: $headingsFontWeight
+	font-weight: 500
 	line-height: 1.4
 	text-transform: uppercase
 	text-rendering: optimizelegibility
@@ -361,23 +372,29 @@ pre
 	&.in
 		opacity: 1
 
-// Nav
-// ----------------------------------------------------------------------------
+// ..............................................
+//
+//  Navigation
+//
+// ..............................................
 
 .header
 	position: fixed
 	top: 0
 	width: 100%
-	height: $headerHeight
+	height: 50px
 	color: $black
 	z-index: 700
 
 
-// Buttons
-// ----------------------------------------------------------------------------
+// ..............................................
+//
+//  Buttons
+//
+// ..............................................
 
 .btn
-	display: block
+	display: inline
 	width: 100%
 	max-width: 24em
 	padding: 20px
@@ -432,9 +449,11 @@ button.btn
 	*padding-bottom: 3px
 
 
-
-// Alerts
-// ----------------------------------------------------------------------------
+// ..............................................
+//
+//  Alerts
+//
+// ..............................................
 
 .alert
 	position: fixed
@@ -462,8 +481,11 @@ button.btn
 	border-color: $green
 
 
-// Labels abd Badges
-// ----------------------------------------------------------------------------
+// ..............................................
+//
+//  Labels and Badges
+//
+// ..............................................
 
 .label, .badge
 	font-size: 11.844px
@@ -510,8 +532,12 @@ a
 	.label, .badge
 		top: 0
 
-// Loading GIFs
-// ----------------------------------------------------------------------------
+
+// ..............................................
+//
+//  Loading
+//
+// ..............................................
 
 #loader
 	position: fixed
@@ -522,7 +548,7 @@ a
 	right: 0
 	height: 100%
 	width: 100%
-	background: url(../img/loading.gif) no-repeat center center $loaderBG
+	background: url(../img/loading.gif) no-repeat center center $white
 
 .btn-load-wrap
 	display: inline-block

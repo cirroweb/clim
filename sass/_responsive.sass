@@ -1,0 +1,83 @@
+// REPEAT VARIABLES & MIXINS
+// ----------------------------------------------------------------------------
+
+@import "variables"
+@import "mixins"
+
+.clearfix
+	*zoom: 1
+	&:before
+		display: table
+		line-height: 0
+		content: ""
+	&:after
+		display: table
+		line-height: 0
+		content: ""
+		clear: both
+
+.input-block-level
+	display: block
+	width: 100%
+	min-height: 30px
+	-webkit-box-sizing: border-box
+	-moz-box-sizing: border-box
+	box-sizing: border-box
+
+.visible-phone, .visible-tablet, .hidden-desktop
+	display: none !important
+
+.visible-desktop
+	display: inherit !important
+
+@media (min-width: 768px) and (max-width: 979px)
+	.hidden-desktop
+		display: inherit !important
+	.visible-desktop
+		display: none !important
+	.visible-tablet
+		display: inherit !important
+	.hidden-tablet
+		display: none !important
+
+@media (max-width: 767px)
+	.hidden-desktop
+		display: inherit !important
+	.visible-desktop
+		display: none !important
+	.visible-phone
+		display: inherit !important
+	.hidden-phone
+		display: none !important
+
+@media (min-width: 1200px)
+
+
+@media (min-width: 768px) and (max-width: 979px)
+
+
+@media (max-width: 767px)
+	.header
+		background: white
+		border-bottom: 1px solid $grayLight
+		.container
+			padding: 0 15px
+	body
+		padding: 0
+	.dl-horizontal
+		dt
+			float: none
+			width: auto
+			clear: none
+			text-align: left
+		dd
+			margin-left: 0
+
+	
+@media (max-width: 480px)
+	.slide-window
+		height: 250px
+	#logo
+		width: 62px
+
+
